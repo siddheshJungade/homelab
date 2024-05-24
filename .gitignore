@@ -1,3 +1,5 @@
 proxmox/terraform.tfvars
 proxmox/.terraform
+proxmox/.terraform.lock.hcl
+
 .env
