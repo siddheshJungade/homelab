@@ -1,0 +1,3 @@
+proxmox/terraform.tfvars
+proxmox/.terraform
+.env
