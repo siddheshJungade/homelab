@@ -8,7 +8,7 @@ variable "proxmox_host" {
 }
 #Specify which template name you'd like to use
 variable "template_name" {
-    default = "k8s-controler"
+    default = "ubuntu-template"
 }
 #Establish which nic you would like to utilize
 variable "nic_name" {
@@ -16,7 +16,7 @@ variable "nic_name" {
 }
 #Establish the VLAN you'd like to use
 variable "vlan_num" {
-    default = 0
+    default = -1
 }
 #Provide the url of the host you would like the API to communicate on.
 #It is safe to default to setting this as the URL for what you used
