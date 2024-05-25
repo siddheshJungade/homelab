@@ -1,5 +1,10 @@
 proxmox/terraform.tfvars
 proxmox/.terraform
 proxmox/.terraform.lock.hcl
+proxmox/plan
+proxmox/.terraform.tfstate.lock.info
+proxmox/terraform-plugin-proxmox.log
+proxmox/terraform.tfstate.backup
+
 
 .env
